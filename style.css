@@ -4,8 +4,6 @@ body {
     font-family: Besley, serif;
   }
 .header {
-    display: flex;
-    justify-content: space-between;
     padding: 8px;
     background: #1F2937;
     border-bottom: 1px solid #ddd;
@@ -17,9 +15,12 @@ body {
     color: rgb(255, 254, 254);
     font-weight: bold;
 }
+.top-head {
+    display: flex;
+    justify-content: space-between;
+}
 
-.name {
-    align-self: center;
+.left-items {
     color: #F9FAF8;
     font-size: 24px;
     font-style: italic;
@@ -32,10 +33,8 @@ ul {
     padding: 2px;
     gap: 16px;
     list-style-type: none;
-  }
+}
 
-  .left-items, .right-items {
-    display: flex;
-    align-items: center;
-    gap: 16px;
+  .intro-main, .intro-sum {
+    color: white;
   }
