@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background: #eee;
+    font-family: Besley, serif;
+  }
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background: #1F2937;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    }
+
+ a {
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    font-weight: bold;
+}
+
+.name {
+    align-self: center;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 2px;
+    gap: 16px;
+    list-style-type: none;
+  }
+
+  .left-items, .right-items {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
