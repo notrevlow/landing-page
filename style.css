@@ -1,40 +1,97 @@
 body {
     margin: 0;
+    padding: 0;
     background: #eee;
     font-family: Besley, serif;
+    text-align: center;
   }
+
 .header {
-    padding: 8px;
-    background: #1F2937;
-    border-bottom: 1px solid #ddd;
-    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    flex-direction: column;
     }
+
+/* Top header */
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px 20px 100px;
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
+.left-items {
+    margin-right: auto;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold; 
+    display: flex;
+}
+
+.right-items {
+    display: flex;
+    margin-left: auto;
+
+}
 
  a {
     text-decoration: none;
     color: rgb(255, 254, 254);
     font-weight: bold;
-}
-.top-head {
-    display: flex;
-    justify-content: space-between;
+    font-size: 18px;
+    padding: 10px;
 }
 
-.left-items {
+ /* Hero Section */
+
+ .intro {
+    display: flex;
+    color: white;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+ }
+
+ .intro-cont {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+ }
+ 
+ .intro-cont p {
+    opacity: 0.7;
+ }
+ 
+ h1 {
+    font-size: 48px;
+    font-weight: bold;
     color: #F9FAF8;
-    font-size: 24px;
-    font-style: italic;
+    margin: 0;
+    font-family: 'Roboto', arial;
+ }
+
+  button {
+    display: block;
+    text-align: center;
+    width: 100px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
     font-weight: bold;
 }
 
-ul {
-    display: flex;
-    margin: 0;
-    padding: 2px;
-    gap: 16px;
-    list-style-type: none;
+.intro-img img {
+    width: 500px;
+    height: 400px;
 }
 
-  .intro-main, .intro-sum {
-    color: white;
-  }
+/* content */
+
