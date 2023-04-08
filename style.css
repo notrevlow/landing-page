@@ -68,11 +68,13 @@ body {
  }
  
  h1 {
-    font-size: 48px;
+    font-size: 40px;
     font-weight: bold;
     color: #F9FAF8;
     margin: 0;
-    font-family: 'Roboto', arial;
+    font-family: 'Cutive Mono';
+    background: rgb(34, 106, 128,.3);
+    text-align: center;
  }
 
   .intro button {
@@ -91,6 +93,7 @@ body {
 .intro-img img {
     width: 500px;
     height: 400px;
+    opacity: .4;
 }
 
 /* content */
